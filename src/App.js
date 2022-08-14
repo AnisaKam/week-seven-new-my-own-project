@@ -10,7 +10,7 @@ function App() {
 
   const [mySearch, setMySearch] = useState('');
   const [myRecipes, setMyRecipes] = useState([]);
-  const [wordSubmitted, setWordSubmitted] = useState ('avacado');
+  const [wordSubmitted, setWordSubmitted] = useState ('mushrooms');
 
   useEffect(() => {
     getRecipes()
